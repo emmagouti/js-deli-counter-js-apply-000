@@ -1,5 +1,5 @@
 function takeANumber(array) {
-  var x = 0;
+ x = 0;
   x++
  array.push(x);
  
