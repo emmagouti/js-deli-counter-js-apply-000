@@ -1,10 +1,19 @@
 function takeANumber(array) {
   var x = 0;
+  x++
  array.push(x);
- x++
+ 
  
   return ('Welcome, you are number ' + x )
 }
+
+let line = []
+
+console.log(takeANumber(line))
+console.log(takeANumber(line))
+console.log(takeANumber(line))
+console.log(nowServing(line))
+
 
 
 function nowServing(current) {
