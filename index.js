@@ -1,5 +1,7 @@
-function takeANumber(array) {
  x = 0;
+ 
+function takeANumber(array) {
+
   x++
  array.push(x);
  
