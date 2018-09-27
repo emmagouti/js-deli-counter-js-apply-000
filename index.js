@@ -16,6 +16,7 @@ console.log(nowServing(line))
 
 
 
+
 function nowServing(current) {
   if (current.length === 0  ){
     return ("There is nobody waiting to be served!")
