@@ -1,6 +1,9 @@
-function takeANumber(num, name) {
- num.push(name)
-  return ('Welcome, ' + name + '. You are number ' + num.length + ' in line.')
+function takeANumber(array) {
+  var x = 0;
+ array.push(x);
+ x++
+ 
+  return ('Welcome, you are number ' + x )
 }
 
 
